@@ -25,10 +25,10 @@
  */
 
 preferences {
-  input("username", "text",        title: "Username",                description: "Your Foscam camera username")
-  input("password", "password",    title: "Password",                description: "Your Foscam camera password")
-  input("ip",       "text",        title: "IP address/Hostname",     description: "The IP address or hostname of your Foscam camera")
-  input("port",     "text",        title: "Port",                    description: "The port of your Foscam camera")
+  input("username", "gocanes007",        title: "Username",                description: "Your Foscam camera username")
+  input("password", "canesreign007",    title: "Password",                description: "Your Foscam camera password")
+  input("ip",       "192.168.1.4"",        title: "IP address/Hostname",     description: "The IP address or hostname of your Foscam camera")
+  input("port",     "88",        title: "Port",                    description: "The port of your Foscam camera")
   input("preset1",  "text",        title: "Preset 1",                description: "Name of your first preset position")
   input("preset2",  "text",        title: "Preset 2",                description: "Name of your second preset position")
   input("preset3",  "text",        title: "Preset 3",                description: "Name of your third preset position")
